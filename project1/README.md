@@ -4,7 +4,7 @@
  * @Author: 王远昭
  * @Date: 2023-04-10 20:55:10
  * @LastEditors: 王远昭
- * @LastEditTime: 2023-06-12 11:30:47
+ * @LastEditTime: 2023-06-12 12:42:55
 -->
 # A Simple Calculator
 
@@ -55,7 +55,15 @@ Implement a calculator which can multiply two numbers.
 1. Your score will also depend on the quality of your source code and your report. Your report should be easy to understand and describe your work well, especially the highlights of your work.
 1. Please pay more attention to your code style. This is not ACM-ICPC contest. You have enough time to write code with both correct results and a good code style. You will get deduction if your code style is terrible. You can read Google C++ Style Guide (http://google.github.io/styleguide/cppguide.html ) or some other guide for code style.
 
+## Start in Linux terminal
+
+```sh
+g++ -std=c++17 source.cpp -o main
+./main <test data>
+```
+
 ## Results
+
  - success：
  [6, 9], [9.9, 6], [9.9e2, 6e7],  [-1, 8e2], [3.1415, 2.0e-2], [1234567890, 1234567890]
 
